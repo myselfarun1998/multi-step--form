@@ -8,7 +8,7 @@ import { FormControl } from '@mui/material';
 import { multiStepContext } from '../StepContext';
 
 const C = () => {
-  const [framework, setFramework] = useState('spring boot');
+  const [framework, setFramework] = useState(' game development ');
   const { setStep, userData, setUserData, submitData } =
     useContext(multiStepContext);
   return (
