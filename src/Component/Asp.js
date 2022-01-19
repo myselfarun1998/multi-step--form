@@ -28,38 +28,38 @@ const Asp = () => {
           <input
             type="radio"
             name="framework"
-            checked={userData.framework === ' game development'}
+            checked={userData.framework === ' .NET'}
             onChange={() =>
               setUserData((prev) => ({
                 ...prev,
-                framework: 'game development',
+                framework: '.NET',
               }))
             }
           />
-          game development
+          .NET
         </div>
 
         <div className="radio-btn">
           <input
             type="radio"
             name="framework"
-            checked={userData.framework === 'web development'}
+            checked={userData.framework === 'Mono'}
             onChange={() =>
-              setUserData((prev) => ({ ...prev, framework: 'web development' }))
+              setUserData((prev) => ({ ...prev, framework: 'Mono' }))
             }
           />
-          web development
+          Mono
         </div>
         <div className="radio-btn">
           <input
             type="radio"
             name="framework"
-            checked={userData.framework === 'embelled sysyem'}
+            checked={userData.framework === ' Xamarin'}
             onChange={() =>
-              setUserData((prev) => ({ ...prev, framework: 'embelled sysyem' }))
+              setUserData((prev) => ({ ...prev, framework: 'Xamarin' }))
             }
           />
-          embelled sysyem
+          Xamarin
         </div>
       </div>
 

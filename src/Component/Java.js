@@ -63,7 +63,7 @@ const Java = () => {
       <div>
         <button
           variant="contained"
-          onClick={() => setStep(2)}
+          onClick={() => setStep(5)}
           color="secondary"
         >
           Previous

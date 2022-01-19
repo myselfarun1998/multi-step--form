@@ -6,6 +6,9 @@ import { Stepper, StepLabel, Step } from '@material-ui/core';
 import { multiStepContext } from './StepContext';
 import { useContext } from 'react';
 import DisplayData from './Component/DisplayData';
+import java from './Component/Java';
+import Asp from './Component/Asp';
+import c from './Component/c';
 
 function App() {
   const { currentStep, finalData } = useContext(multiStepContext);
@@ -18,6 +21,12 @@ function App() {
         return <SecondStep />;
       case 3:
         return <ThirdStep />;
+      case 4:
+        return <java />;
+      case 5:
+        return <c />;
+      case 6:
+        return <Asp />;
     }
   }
 
@@ -31,6 +40,15 @@ function App() {
             activeStep={currentStep - 1}
             orientation="horizontal "
           >
+            <Step>
+              <StepLabel> </StepLabel>
+            </Step>
+            <Step>
+              <StepLabel> </StepLabel>
+            </Step>
+            <Step>
+              <StepLabel> </StepLabel>
+            </Step>
             <Step>
               <StepLabel> </StepLabel>
             </Step>
