@@ -23,7 +23,7 @@ const Java = () => {
 
       <div className="radio-btn-container">
         <div className="radio-btn">
-          <label>Select Your frameWork</label>
+          <label>Select Your JAVA frameWork</label>
           <br />
           <input
             type="radio"
@@ -63,7 +63,7 @@ const Java = () => {
       <div>
         <button
           variant="contained"
-          onClick={() => setStep(5)}
+          onClick={() => setStep(2)}
           color="secondary"
         >
           Previous

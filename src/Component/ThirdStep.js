@@ -69,10 +69,9 @@ const ThirdStep = () => {
           Previous
         </button>{' '}
         <span></span>
-        <button variant="contained" onClick={() => setStep(4)} color="primary">
+        <button variant="contained" onClick={submitData} color="primary">
           Next
         </button>
-        {/* onClick={submitData} */}
       </div>
     </div>
   );

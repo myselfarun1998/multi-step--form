@@ -23,7 +23,7 @@ const C = () => {
 
       <div className="radio-btn-container">
         <div className="radio-btn">
-          <label>Select Your frameWork</label>
+          <label>Select C Your frameWork</label>
           <br />
           <input
             type="radio"
@@ -66,7 +66,7 @@ const C = () => {
       <div>
         <button
           variant="contained"
-          onClick={() => setStep(2)}
+          onClick={() => setStep(5)}
           color="secondary"
         >
           Previous
